@@ -143,7 +143,7 @@ wraps around both `Article` and `Comment`, and we already know what they look
 like when they are turned into HTML.
 
 As you may expect, we refer to the `App` component as the _parent_ component of
-both the `Comment` and `Article` components'. Inversely, we refer to `Comment`
+both the `Comment` and `Article` components. Inversely, we refer to `Comment`
 and `Article` as _children_ components of `App`.
 
 ## Summary
