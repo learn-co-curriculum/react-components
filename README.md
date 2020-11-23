@@ -37,7 +37,7 @@ start simply and build up from there using a simple example.
 
 Let's imagine we want to post a blog article describing why Bjarne Stroustrup has the [perfect lecture oration][bjarne-stroustrup]. We also want our blog article to display comments made by readers.
 
-#### Step 1 -- write the components
+#### Step 1: write the components
 
 First, let's make a component to showcase an opinion:
 
@@ -102,7 +102,7 @@ into JSX (which is actually quite wonderful) later.
 
 Once we have our components in hand, it's time to actually use them.
 
-#### Step 2 -- use the components
+#### Step 2: use the components
 
 Now that we have these components written, all we need to do is make sure some
 other component is making use of them in its `render` method. Every React
@@ -160,6 +160,7 @@ content that can change based on user actions.
 ## Resources
 
 - [React Top-Level API](https://reactjs.org/docs/react-api.html)
+- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 [react-component]: https://reactjs.org/docs/components-and-props.html
 [boiler-plate]: https://en.wikipedia.org/wiki/Boilerplate_code
