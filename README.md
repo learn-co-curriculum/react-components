@@ -18,7 +18,7 @@ Let's examine a high level overview of what a React component is before we
 implement one. The official [React documentation on components][react-component]
 says it best:
 
->Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+> Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
 Components modularize both _functionality_ and _presentation_ in our code. In
 order to understand how powerful this is, consider just how intricate web
@@ -41,14 +41,12 @@ Let's imagine we want to post a blog article describing why Bjarne Stroustrup ha
 
 First, let's make a component to showcase an opinion:
 
-```javascript
+```jsx
 class Article extends React.Component {
   render() {
     return (
-      <div>
-        Dear Reader: Bjarne Stroustrup has the perfect lecture oration.
-      </div>
-    )
+      <div>Dear Reader: Bjarne Stroustrup has the perfect lecture oration.</div>
+    );
   }
 }
 ```
@@ -75,14 +73,10 @@ Let's see what it would look like, were we to only render this one component, in
 Ok, that takes care of our `Article` part of our application. Now let's make a
 component to display a single user's comment:
 
-```javascript
+```jsx
 class Comment extends React.Component {
   render() {
-    return (
-      <div>
-        Naturally, I agree with this article.
-      </div>
-    )
+    return <div>Naturally, I agree with this article.</div>;
   }
 }
 ```
@@ -109,7 +103,7 @@ other component is making use of them in its `render` method. Every React
 application has some top level component. Very often, this top level component
 is simply called `App`. For our example, here's what it might look like:
 
-```javascript
+```jsx
 class App extends React.Component {
   render() {
     return (
@@ -117,7 +111,7 @@ class App extends React.Component {
         <Article />
         <Comment />
       </div>
-    )
+    );
   }
 }
 ```
