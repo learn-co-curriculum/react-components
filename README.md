@@ -7,6 +7,8 @@ they're important and examining a few examples. If the idea and application of
 components don't click immediately, _do not worry!_ The different moving parts
 required to understand how to use them will fall into place as we move forward.
 
+There is no need to code-along with these examples, the purpose of this lesson is to demonstrate the functionality of React components.
+
 ## Objectives
 
 1. Understand React components
